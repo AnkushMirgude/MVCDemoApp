@@ -8,9 +8,9 @@ namespace MVCDemo.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index(string name)
+        public string Index(int id)
         {
-            return " "+name+"my first MVC application";
+            return "my first MVC application"+id;
         }
 
         public ActionResult About()
